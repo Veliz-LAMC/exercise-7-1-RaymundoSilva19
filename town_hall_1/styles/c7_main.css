@@ -7,10 +7,11 @@ html {
 	background-color: white;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, sans-serif;
     font-size: 100%;
     width: 800px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0; 
     border: 3px solid #931420;
     background-color: #fffded;
 }
@@ -19,7 +20,8 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
-	padding: 1.5em 0 2em 0;
+	background-color: #f0f0f0;
+	padding: 20px;
 	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
